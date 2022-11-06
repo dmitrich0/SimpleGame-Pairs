@@ -1,0 +1,58 @@
+body {
+    font-family: sans-serif;
+    
+}
+.main {
+    width: 1170px;
+    margin: 0 auto;;
+    text-align: center;
+}
+
+.flex {
+    display: flex;
+}
+
+.playground {
+
+}
+
+.grid {
+    padding-top: 20px;
+    display: grid;
+    gap: 1px;
+    margin-bottom: 10px;
+}
+
+.cell {
+    border: 2px solid black;
+    padding: 5px;
+    min-width: 20px;
+    min-height: 20px;
+    font-weight: 900;
+    font-size: 14px;
+    background-color: rgba(255, 249, 166, 0.695);
+}
+
+.hidden {
+    visibility: hidden;
+}
+
+.visible {
+    visibility: visible;
+}
+
+.quessed {
+    background-color: green;
+}
+.btn {
+    font-size: 14px;
+    font-weight: 700;
+    text-transform: uppercase;
+}
+
+.timer {
+    font-weight: 900;
+    font-size: 20px;
+    position: absolute;
+    left: 70px;
+}
